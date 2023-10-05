@@ -12,7 +12,11 @@
   }, 4000);
 }); */
 
-	  const load = document.getElementByTag("body")
+/* 	  const load = document.getElementByTag("body")
 load.addEventListener("DOMonload",()=>{
 	load.innerText="DOM load success"
-})
+}) */
+
+function loading(){
+	document.body.innerText = "DOM load success"
+}
