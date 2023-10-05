@@ -1,1 +1,8 @@
 /*  your css code here. If applicable */
+document.addEventListner('DOMContentLoaded', function() {
+	setTimeout(function) {
+		document.body.innerText = '';
+		var textNode = document.createTextNode('DOM load success');
+		document.body.appendChild(textNode);
+	}, 4000);
+});
