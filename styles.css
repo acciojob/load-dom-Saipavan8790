@@ -1,5 +1,5 @@
 //your JS code here. If required.
-document.addEventListener('DOMContentLoaded', function() {
+/* document.addEventListener('DOMContentLoaded', function() {
   setTimeout(function() {
     // Clear the existing content of the <body> element
     document.body.innerHTML = '';
@@ -10,4 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Append the text node to the <body> element
     document.body.appendChild(textNode);
   }, 4000);
-});
+}); */
+
+	  const load = document.getElementByTag("body")
+load.addEventListener("DOMonload",()=>{
+	load.innerText="DOM load success"
+})
