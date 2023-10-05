@@ -16,7 +16,7 @@
 load.addEventListener("DOMonload",()=>{
 	load.innerText="DOM load success"
 }) */
-
+/* 
 function loading(){
 	document.body.innerText = "DOM load success"
-}
+} */
